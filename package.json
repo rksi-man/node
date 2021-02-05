@@ -1,0 +1,19 @@
+{
+  "name": "docker-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "dependencies": {
+    "micro": "^9.3.4",
+    "micro-redirect": "^1.0.0",
+    "microrouter": "^3.1.3",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
